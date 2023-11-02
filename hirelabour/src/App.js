@@ -7,6 +7,7 @@ import Registermain from './routes/Register/registermain/registermain';
 import Registercustomer from './routes/Register/register2/registercustomer';
 import Registerlabour from './routes/Register/register1/registerlabour';
 import Market from './components/market/Market';
+import About from './components/About/about';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path='/registercustomer' element={<Registercustomer />} />
       <Route path='/registerlabour' element={<Registerlabour />} />
       <Route exact path="/market" element={<Market />} />
+      <Route path='/about' element={<About />}/>
     </Routes>
   )
 }

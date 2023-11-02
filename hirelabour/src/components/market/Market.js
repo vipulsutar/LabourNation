@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import Navbar from './../Navbar/navbar';
 
 import Searchbar from "./utils/Searchbar";
 import List from "./utils/Lists/List";
@@ -173,6 +174,10 @@ function Market() {
   ]);
 
   return (
+    <>
+     <Navbar style={{ backgroundColor: '#ff6600' }} /> 
+    <div className="w-full flex flex-col">
+      <div className="w-full flex h-screen">
     <div className="w-full flex flex-col">
       <div className="w-full flex h-screen">
         {/* Filter Panel */}
@@ -203,6 +208,9 @@ function Market() {
         </div>
       </div>
     </div>
+    </div>
+    </div>
+    </>
   );
 }
 

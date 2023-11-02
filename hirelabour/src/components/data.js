@@ -57,7 +57,7 @@
   export const dataList = [
     {
       id: 1,
-      title: 'lounge resort',
+      title: 'Samanraj',
       serviceTime: '45-60min',
       deliveryFee: 3.44,
       // category: 'place',
@@ -66,7 +66,7 @@
       coverSrc: '/images/places/ameri.jpg',
      
 
-     coverSrc1: '/images/lawyers_prof/photo_2.jpg',
+     coverSrc1: ' /images/lawyers_prof/img2.jpg',
         name: 'Samanraj ',
         type_of_lsp: 'Freelancer',
         lang: 'English, Hindi, Tamil',
@@ -79,7 +79,7 @@
     },
     {
       id: 2,
-      title: 'door urban',
+      title: 'Ram Gupta',
       serviceTime: '15-20min',
       deliveryFee: 4.94,
       // category: 'place',
@@ -88,7 +88,7 @@
       price: 1000,
       coverSrc: '/images/places/italian.webp',
 
-      coverSrc1: '/images/lawyers_prof/photo_3.jpg',
+      coverSrc1: '/images/lawyers_prof/img3.jpg',
       name: 'Ram Gupta',
       type_of_lsp: 'Freelancer',
       lang: 'English, Gujarati, Marathi',
@@ -101,7 +101,7 @@
 
     {
       id: 3,
-      title: 'chow',
+      title: 'Munna Shukla',
       serviceTime: '30-22min',
       deliveryFee: 4.94,
       // category: 'place',
@@ -111,7 +111,7 @@
       coverSrc: '/images/places/china.jpg',
  
 
-      coverSrc1: '/images/lawyers_prof/photo_4.jpg',
+      coverSrc1: ' /images/lawyers_prof/img1.jpg',
       name: 'Munna Shukla',
       type_of_lsp: 'Contract Worker',
       lang: 'English, Hindi, Kannada',
@@ -123,7 +123,7 @@
     },
     {
       id: 4,
-      title: 'wharf seafood',
+      title: 'Dhiraj Jaiswar',
       serviceTime: '10-18min',
       deliveryFee: 2.14,
       // category: 'place',
@@ -131,7 +131,7 @@
       rating: 1,
       price: 1800,
       coverSrc: '/images/places/sea.jpg',
-      coverSrc1: '/images/lawyers_prof/photo_5.jpg',
+      coverSrc1: '/images/lawyers_prof/img4.jpg',
       name: 'Dhiraj Jaiswar',
       type_of_lsp: 'Freelancer',
       lang: 'English, Marathi, Punjabi',
@@ -143,7 +143,7 @@
     },
     {
       id: 5,
-      title: 'Tossin',
+      title: 'Anand raj',
       serviceTime: '25-30min',
       deliveryFee: 6.79,
       // category: 'place',
@@ -151,8 +151,8 @@
       rating: 5,
       price: 2000,
       coverSrc: '/images/places/italiian.jpg',
-      coverSrc1: '/images/lawyers_prof/photo_6.jpg',
-      name: 'Anand Tripathi',
+      coverSrc1: '/images/lawyers_prof/img5.jpg',
+      name: 'Anand raj',
       type_of_lsp: 'Daily Labour',
       lang: 'English, Hindi, Telugu',
       exp: '9',
@@ -163,7 +163,7 @@
     },
     {
       id: 6,
-      title: 'stories noodles',
+      title: 'Mohan Shah',
       serviceTime: '5-15min',
       deliveryFee: 2.87,
       // category: 'place',
@@ -171,7 +171,7 @@
       rating: 5,
       price: 3500,
       coverSrc: '/images/places/fookyew2.jpg',
-      coverSrc1: '/images/lawyers_prof/photo_7.jpg',
+      coverSrc1: '/images/lawyers_prof/img6.jpg',
       name: 'Mohan Shah',
       type_of_lsp: 'Daily Labour',
       lang: 'English, Marathi, Gujarati',
@@ -183,7 +183,7 @@
     },
     {
       id: 7,
-      title: 'Nacho cheeseburger',
+      title: 'Prashant Bose',
       serviceTime: '50-65min',
       deliveryFee: 8.5,
       // category: 'dish',
@@ -191,7 +191,7 @@
       rating: 2,
       price: 2200,
       coverSrc: '/images/dishes/nacho-burger.jpg',
-      coverSrc1: '/images/lawyers_prof/photo_8.jpg',
+      coverSrc1: '/images/lawyers_prof/img7.jpg',
       name: 'Prashant Bose',
       type_of_lsp: 'Daily Labour',
       lang: 'English, Hindi, Bengali',
@@ -203,7 +203,7 @@
     },
     {
       id: 8,
-      title: 'Mushroom Risotto',
+      title: 'Rahul Prasad',
       serviceTime: '10-15min',
       deliveryFee: 1.8,
       // category: 'dish',
@@ -211,8 +211,8 @@
       rating: 1,
       price: 1900,
       coverSrc: '/images/dishes/Mushroom-Risotto-Recipe-1-1200.jpg',
-      coverSrc1: '/images/lawyers_prof/3.png',
-      name: 'Rahul Dravid',
+      coverSrc1: '/images/lawyers_prof/img8.jpg',
+      name: 'Rahul Prasad',
       type_of_lsp: 'FreeLancer',
       lang: 'English, Marathi, Kannada',
       exp: '6',
@@ -223,7 +223,7 @@
     },
     {
       id: 9,
-      title: 'Shitake Fried Rice',
+      title: 'Maninder Singh Sodhi',
       serviceTime: '12-18min',
       deliveryFee: 3.33,
       // category: 'dish',
@@ -231,7 +231,7 @@
       rating: 4,
       price: 2750,
       coverSrc: '/images/dishes/shiitake-salmon-fried-rice-0218-103230720.jpg',
-      coverSrc1: '/images/lawyers_prof/1.png',
+      coverSrc1: '/images/lawyers_prof/img9.jpg',
       name: 'Maninder Singh Sodhi',
       type_of_lsp: 'Daily Labour',
       lang: 'English, Hindi, Punjabi',
@@ -243,7 +243,7 @@
     },
     {
       id: 10,
-      title: 'Pesto chicken stew',
+      title: 'Jatin Arjun',
       serviceTime: '30-38min',
       deliveryFee: 1.9,
       // category: 'dish',
@@ -251,8 +251,8 @@
       rating: 2,
       price: 4350,
       coverSrc: '/images/dishes/pesto-chicken.jpg',
-      coverSrc1: '/images/lawyers_prof/photo_11.jpg',
-      name: 'Jatin Eppakayla',
+      coverSrc1: '/images/lawyers_prof/img10.jpg',
+      name: 'Jatin Arjun',
       type_of_lsp: 'Freelancer',
       lang: 'English, Hindi, Telugu',
       exp: '7',
@@ -263,7 +263,7 @@
     },
     {
       id: 11,
-      title: 'Bruschetta',
+      title: 'Chandrakant',
       serviceTime: '16-20min',
       deliveryFee: 4.1,
       // category: 'dish',
@@ -273,8 +273,8 @@
       coverSrc: '/images/dishes/as-tomato-bruschetta-articleLarge.jpg',
 
 
-      coverSrc1: '/images/lawyers_prof/photo_12.jpg',
-      name: 'Chandu Iyer',
+      coverSrc1: '/images/lawyers_prof/img11.jpg',
+      name: 'Chandrakant Iyer',
       type_of_lsp: 'Freelancer',
       lang: 'English, Hindi, Tamil',
       exp: '8',
@@ -286,7 +286,7 @@
     },
     {
       id: 12,
-      title: 'Dim Sums',
+      title: 'Pratik',
       serviceTime: '24-30min',
       deliveryFee: 1.5,
       // category: 'dish',
@@ -294,7 +294,7 @@
       rating: 2,
       price: 4100,
       coverSrc: '/images/dishes/dimsums.jpg',
-      coverSrc1: '/images/lawyers_prof/2.png',
+      coverSrc1: '/images/lawyers_prof/img12.jpg',
       name: 'Pratik bengali',
       type_of_lsp: 'Contract Worker',
       lang: 'English, Marathi, Bengali',

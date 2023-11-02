@@ -1,9 +1,10 @@
+
 import React from "react";
 
 const about = () => {
     return(
         <>
-        <section class="bg-gray-100 py-8">
+        <section id="about" class="bg-gray-100 py-8">
   <div class="mx-auto px-2">
     <div class="sm:w-2/3 lg:w-1/2 mx-auto">
        <div class='text-4xl text-center'><h1>ABOUT US</h1></div>
