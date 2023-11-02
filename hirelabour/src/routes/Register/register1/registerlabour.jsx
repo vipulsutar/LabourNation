@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const RegisterLabour = () => {
+  const navigate = useNavigate(); // Use useNavigate hook for navigation
   const [formData, setFormData] = useState({
     name: "",
     age: "",
@@ -38,6 +39,8 @@ const RegisterLabour = () => {
 
     if (!isFormValid) {
       alert("Please fill out all fields.");
+    } else {
+      navigate("/login"); // Use navigate to navigate to the login page
     }
   };
 
@@ -100,6 +103,7 @@ const RegisterLabour = () => {
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 name="contactNo"
                 type="tel"
+                pattern="[0-9]{10}" 
                 placeholder="Contact No"
                 maxLength="10"
                 onChange={handleInputChange}
@@ -115,6 +119,7 @@ const RegisterLabour = () => {
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 name="aadharNo"
                 type="text"
+                pattern="[0-9]{12}"
                 placeholder="Aadhar-card-No."
                 maxLength="12"
                 onChange={handleInputChange}
@@ -223,9 +228,8 @@ const RegisterLabour = () => {
           </form>
         </div>
       </div>
-      <div className="flex justify-center">
+       <div className="flex justify-center">
         {!isFormValid && <p className="text-red-500">Fill out all fields.</p>}
-        <Link to='/login'>
         <button
           className={`${
             isFormValid ? "bg-blue-500 hover:bg-blue-700" : "bg-gray-300 cursor-not-allowed"
@@ -235,7 +239,6 @@ const RegisterLabour = () => {
         >
           Register
         </button>
-        </Link>
       </div>
     </>
   );
