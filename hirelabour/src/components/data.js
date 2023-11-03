@@ -57,7 +57,7 @@
   export const dataList = [
     {
       id: 1,
-      title: 'Samanraj',
+      title: 'Samanraj ',
       serviceTime: '45-60min',
       deliveryFee: 3.44,
       // category: 'place',

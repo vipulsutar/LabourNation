@@ -13,7 +13,7 @@ const Homepage = () => {
           <span className="animate__animated animate__heartBeat animate__infinite">LabourNation</span>
         </h2>
         <p className="text-lg md:text-xl lg:text-2xl text-gray-600 mb-8 animate__animated animate__fadeIn">
-          Your Partner in Finding the Best Labor for Your Project
+          Your Partner in Finding the Best Labour for Your Project
         </p>
         <p className="text-lg md:text-xl lg:text-2xl text-gray-600 mb-8 animate__animated animate__fadeIn">
           We provide top-notch labor hiring services for your projects. Our team of experts will help you find the right person for the job.

@@ -2,7 +2,13 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const RegisterLabour = () => {
-  const navigate = useNavigate(); // Use useNavigate hook for navigation
+  const handleImageUpload = (e) => {
+    const file = e.target.files[0]; // Get the selected file
+    if (file) {
+      console.log("Selected image:", file);
+    }
+  };
+  const navigate = useNavigate(); 
   const [formData, setFormData] = useState({
     name: "",
     age: "",
@@ -10,7 +16,7 @@ const RegisterLabour = () => {
     contactNo: "",
     aadharNo: "",
     yearsOfExperience: "",
-    expertise: "Carpenter", // Default value
+    expertise: "Carpenter",
     email: "",
     username: "",
     password: "",
@@ -40,7 +46,7 @@ const RegisterLabour = () => {
     if (!isFormValid) {
       alert("Please fill out all fields.");
     } else {
-      navigate("/login"); // Use navigate to navigate to the login page
+      navigate("/login"); 
     }
   };
 
@@ -126,6 +132,16 @@ const RegisterLabour = () => {
                 value={formData.aadharNo}
               />
             </div>
+            <div className="mb-4">
+            <label className="block text-gray-700 font-bold mb-2" htmlFor="image">
+              Image
+            </label>
+            <input
+              type="file"
+              accept="image/*"
+              onChange={handleImageUpload}
+            />
+</div>
           </form>
         </div>
 

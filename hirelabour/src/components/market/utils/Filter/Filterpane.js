@@ -8,7 +8,9 @@ import SliderProton from "../../Addons/Sliderproton";
 import "./filterpane.css";
 import CheckboxRating from "../../Addons/Checkboxrating";
 
+
 const FilterPanel = ({
+  
   selectedPrice,
   skill,
   changeCheckedLaw_category,
